@@ -1,0 +1,29 @@
+.tic{
+  text-align: center;
+}
+.tic .box input{
+  color: rgb(255, 255, 255);
+  border-color: #216EFC;
+  background-color: #212845;
+}
+.tic .box{
+  width: 400px;
+  height:400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 50px;
+}
+.tic .result,.tic .Restart{
+  padding: 10px 40px;
+  background-color: #212845;
+  border: 2px solid #216EFC;
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+}
+.tic .box input{
+  font-size: 40px;
+}
